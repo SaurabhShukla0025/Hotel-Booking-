@@ -153,8 +153,7 @@ app.use("/" , (req , res , next) =>{
 //    // res.send("Something went wrong") ;
 // })
 
-
-app.listen(8080 ,() =>{
+app.listen(8080 , "0.0.0.0", () =>{
 
     console.log("The server is listening at the port 8080");
 })
